@@ -1,0 +1,57 @@
+﻿Trace,Event
+1,Check Background
+1,Check Requirements
+1,Check References
+1,Check Projects
+1,Accept
+1,Sent decision
+2,Check Background
+2,Check References
+2,Check Requirements
+2,Check Projects
+2,Reject
+2,Sent decision
+3,Check Background
+3,Check References
+3,Check Requirements
+3,Check Projects
+3,Accept
+3,Sent decision
+4,Check Background
+4,Check Requirements
+4,Check References
+4,Check Projects
+4,Reject
+4,Sent decision
+5,Check Background
+5,Check Requirements
+5,Check Projects
+5,Check References
+5,Accept
+5,Sent decision
+6,Check Background
+6,Check Projects
+6,Check Requirements
+6,Check References
+6,Reject
+6,Sent decision
+7,Check Background
+7,Check Projects
+7,Check References
+7,Check Requirements
+7,Accept
+7,Sent decision
+8,Check Background
+8,Verify performance at work
+8,Accept
+8,Sent decision
+9,Check Background
+9,Check References
+9,Check Projects
+9,Check Requirements
+9,Reject
+9,Sent decision
+10,Check Background
+10,Verify performance at work
+10,Reject
+10,Sent decision
