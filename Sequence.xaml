@@ -1,0 +1,167 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="792,1597.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uas="clr-namespace:UiPath.Activities.System;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Activities.System</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="545.6,1532.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Sign in to Your Epic Games account | Epic Games" sap:VirtualizedContainerService.HintSize="483.2,1420.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="93cb6044-08a8-4d58-a1dd-f7cb73d6b482" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1204" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="ui:PasswordCredentials" Name="credentials" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uas:GetUsernamePasswordX OrchestratorCredentialName="{x:Null}" TimeoutInSeconds="{x:Null}" AutosubmitTimeoutSeconds="10" Credential="[credentials]" CredentialName="UiPath: EpicgamesCredentials" CredentialsSource="CredentialsManager" DisplayName="Get Username/Password" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="GetUsernamePasswordX_2" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email Address *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="93cb6044-08a8-4d58-a1dd-f7cb73d6b482" Text="[credentials.Username]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.epicgames.com/id/login?lang=en-US&amp;noHostRedirect=true&amp;redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4" CvElementArea="787, 433, 363, 62" CvType="InputBox" DesignTimeRectangle="788, 434, 360, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='MuiInputBase-input MuiOutlinedInput-input' aaname='Email Address *' /&gt;" Guid="0dd51a33-1b76-4d9d-a6b0-1d93ebf970c1" InformativeScreenshot="27d7326f648fd4ecbd3d305c6151ac66.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to Your Epic Games account | Epic Games' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="787, 433, 363, 62" CvType="InputBox" DesignTimeRectangle="808, 444, 83, 17" ElementType="Text" FriendlyName="'Email Address *'" FullSelectorArgument="&lt;webctrl id='email-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email-label' tag='LABEL' type='' class='MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required' aaname='Email Address' check:innerText='Email Address' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93cb6044-08a8-4d58-a1dd-f7cb73d6b482" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.epicgames.com/id/login?lang=en-US&amp;noHostRedirect=true&amp;redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4" CvElementArea="785, 537, 364, 65" CvTextArea="935, 563, 65, 11" CvTextArgument="CONTINUE" CvType="Button" DesignTimeRectangle="788, 539, 360, 60" DesignTimeScaleFactor="1" FriendlyName="'Continue'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div' idx='3' parentid='modal-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='sc-bdfBQB sc-dlfnuX epKPTG bdzcew' parentid='modal-content' tag='DIV' aaname='' check:innerText='CONTINUE' /&gt;" Guid="3bf38edf-65d5-49c9-8e02-bb66b5b67037" InformativeScreenshot="f67ec79b9430d5f7f88f32013ce3f400.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to Your Epic Games account | Epic Games' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" IsPassword="True" ScopeIdentifier="93cb6044-08a8-4d58-a1dd-f7cb73d6b482" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.epicgames.com/id/login/epic?lang=en-US&amp;redirect_uri=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4" CvElementArea="788, 557, 362, 62" CvType="InputBox" DesignTimeRectangle="788, 585, 310, 60" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'585?fv*wucCKGRr'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' aaname='Password' /&gt;" Guid="97a7777c-90cb-4260-bf3c-3abc1ecca3e4" InformativeScreenshot="b6cfad22f2d48d06cdd1852ebb7876a6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to Your Epic Games account | Epic Games' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="788, 557, 362, 62" CvType="InputBox" DesignTimeRectangle="808, 595, 56, 17" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl id='password-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password-label' tag='LABEL' type='' class='MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled' aaname='Password' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="93cb6044-08a8-4d58-a1dd-f7cb73d6b482" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.epicgames.com/id/login/epic?lang=en-US&amp;redirect_uri=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4" CvElementArea="786, 723, 363, 63" CvTextArea="943, 749, 49, 11" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="788, 725, 360, 60" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='sign-in' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='sign-in' tag='BUTTON' type='submit' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary jss35 MuiButton-disableElevation MuiButton-fullWidth' aaname='Sign In' check:innerText='SIGN IN' /&gt;" Guid="27a1c3d5-8ec0-4a01-9052-e3f1e30827ce" InformativeScreenshot="b64c8e13917943d60af92909da24d2d2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to Your Epic Games account | Epic Games' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="786, 723, 363, 63" CvTextArea="943, 749, 49, 11" CvTextArgument="SIGN IN" CvType="Button" DesignTimeRectangle="945, 747, 47, 16" ElementType="Text" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl class='jss39' parentid='sign-in' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='jss39' parentid='sign-in' tag='SPAN' type='' aaname='Sign In' check:innerText='SIGN IN' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, 98, 1936, 1056" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="1d159cdca3c5391d279c39db1dfe3e81.png" Selector="&lt;html app='chrome.exe' url='https://www.epicgames.com/id/login?lang=en-US&amp;amp;noHostRedirect=true&amp;amp;redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4' /&gt;" Title="Sign in to Your Epic Games account | Epic Games" Url="https://www.epicgames.com/id/login?lang=en-US&amp;noHostRedirect=true&amp;redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2F&amp;client_id=875a3b57d3a640a6b7f9b4e883463ab4" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
